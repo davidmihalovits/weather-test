@@ -1,0 +1,46 @@
+* 
+  font-family: arial
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+::placeholder
+    color: #ebebeb
+
+.app
+    margin: 40px 20px 0 20px
+
+    .app-searchbar
+        width: 100%
+        padding-bottom: 5px
+        border: none
+        border-bottom: 1px solid #a5a5a5
+        outline: none
+
+        &:focus
+            color: #42A5F5
+            border-bottom: 1px solid #42A5F5
+
+    .app-weather
+        margin-top: 20px
+        text-align: center
+        background-color: #E3F2FD
+        border-radius: 22px
+        padding: 20px
+
+        .weather-name
+            font-size: 14px
+
+        .weather-temp
+            margin-top: 10px
+            font-size: 50px
+            font-weight: bold
+
+        .weather-img
+            width: 100px
+            height: 100px
+
+@media only screen and (min-width: 768px)
+    .app
+        margin: 100px auto 0 auto
+        width: 400px
